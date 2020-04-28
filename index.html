@@ -42,8 +42,20 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="image-fluid">
+                <div class="col-12 col-sm align-self-center align-center">
+                    <div class="row">
+                    <div class="col-12, col-md-6 ">
+                        <img src="img/logo.png" class="image-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 align-self-center mt-2">
+                    <a href="#Reserve">
+                        <button class="btn btn-block btn-warning">
+                             Reserve Table
+                        </button>
+                    </a>
+                    </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -97,8 +109,63 @@
                 </div> 
             </div>
         </div>
-        <div class="row">
+        <div class="container col col-md-8 mb-2">
+        <div class="row card" id="Reserve">
+            <h3 class="card-header bg-warning text-white">
+                Reserve a Table
+            </h2>
+            <div class="card-body">
+                <form>
+                    <div class="form-group row align-self-center">
+                        <label for="guestnum" class="col-12 col-md-3">
+                            Number of Guests
+                        </label>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum1" value="option1">
+                            <label class="form-check-label" for="guestnum1">1</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum2" value="option2">
+                            <label class="form-check-label" for="guestnum2">2</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum3" value="option3">
+                            <label class="form-check-label" for="guestnum3">3</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum4" value="option4">
+                            <label class="form-check-label" for="guestnum4">4</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum5" value="option5">
+                            <label class="form-check-label" for="guestnum5">5</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-imput" type="radio" name="guestnum" id="guestnum6" value="option6">
+                            <label class="form-check-label" for="guestnum6">6</label>
+                        </div>
+                    </div>
+                    <div class="form-group row align-self-center">
+                        <label for="tmdt" class="col-12 col-md-3">
+                            Date and Time
+                        </label>
+                            <div class="col-12 col-md-5">
+                                <input type="datetime" id="tmdt" class="form-control" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="datetime" id="tm" class="form-control"Placeholder="Time">
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-3 col-md-10">
+                            <button type="submit" class="btn btn-warning">Submit</button>
+                        </div>
+                    </div>
+                </form>
 
+            </div>
+            
+        </div>
         </div>
     </div>
 
